@@ -1,0 +1,48 @@
+/* ----------------MENU-LEFT------------ */
+.menu-left{
+  background-color: var(--dark-blue);
+  width: 15vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.menu-left .logo{
+  margin-bottom: 10rem;
+}
+
+.menu-left .dashboard{
+  cursor: pointer;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  height: 13rem;
+  width: 13rem;
+  border-radius: .5rem;
+
+  background-color: var(--black);
+  margin-bottom: 52vh;
+}
+
+.dashboard img{
+  height: 4rem;
+  margin-bottom: .8rem;
+}
+
+.dashboard p{
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+
+.separator{
+  height: .1vh;
+  width: 14vw;
+  background-color: #fff;
+  margin-bottom: 2rem;
+}
