@@ -31,3 +31,31 @@
   flex-direction: column;
 }
 
+.arrows{
+  height: 3.5rem;
+  width: 4.5rem;
+}
+
+.valors{
+  width: 40vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.valors .input-valor {
+  display: flex;
+  flex-direction: column;
+}
+
+.valors .p-valor {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 7rem;
+}
+
+.container .conversion-info{
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+

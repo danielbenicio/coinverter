@@ -44,19 +44,20 @@
 
     <img class="arrows" src="images/arrows.svg" alt="setas">
 
-    <div class="row justify-content-center align-items-center mb-4 mt-4">
-      <div class="col-sm-3 col-md-2">
+    <div class="valors">
+      <div class="input-valor">
         <label for="">Exchange Amount:</label>
-        <input data-js="currency-one-times" type="number" min="1" class="form-control form-control-lg" value="1">
+        <input data-js="currency-one-times" type="number" min="1" class="your-valor" value="1">
       </div>
       
-      <div class="col-sm-3 col-md-2">
+      <div class="p-valor">
         <label for="">Receive Amount:</label>
-        <p data-js="converted-value" class="converted-value fs-1 text-center mb-0">454545454545</p>
+        <input data-js="converted-value" type="text" value="1" class="covertd-valor" readonly> 
       </div>
-
-      <p data-js="conversion-precision" class="conversion-precision text-center m-4">5454545445</p>
     </div>
+
+    <p data-js="conversion-precision" class="conversion-info">5454545445</p>
+
   </div>
 
   <script src="./app.js"></script>
