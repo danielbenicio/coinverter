@@ -34,6 +34,7 @@ select{
   background-color: var(--black);
   height: 4rem;
   width: 22rem;
+  margin-bottom: 4rem;
 } 
 
 input {

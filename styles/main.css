@@ -1,4 +1,5 @@
 .container{
+  margin-left: 14vw;
   height: 100vh;
   width: 100vw;
   display: flex;
@@ -11,7 +12,7 @@
   color: #fff;
   font-size: 3rem;
   font-weight: 700;
-  margin-top: -24rem;
+  margin-top: -15rem;
   margin-bottom: 5rem;
 }
 
@@ -34,6 +35,7 @@
 .arrows{
   height: 3.5rem;
   width: 4.5rem;
+  margin-bottom: 4rem;
 }
 
 .valors{
@@ -57,5 +59,11 @@
   color: #fff;
   font-weight: 500;
   font-size: 1.8rem;
+}
+
+.description{
+  margin-top: 55vh;
+  height: 45vh;
+  width: 45vw;
 }
 
