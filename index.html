@@ -19,37 +19,35 @@
   <title>Coinverter</title>
 </head>
 <body>
-  <img class="logo" src="images/logo.svg" alt="logo">
-  
   <div class="container">
-    
-    <h2>Exchange Form</h2>
+    <div class="logos">
+      <img src="images/brasil.svg" alt="brasil">
+      <h2>Exchange Form</h2>
+      <img src="images/usa.svg" alt="brasil">
+    </div>
     <div data-js="currencies-container" class="coin-type">
       <div class="input-from">
         <label for="">From:</label>
         <select data-js="currency-one" class="from"></select>
       </div>
-
+      <img class="arrows" src="images/arrows.svg" alt="">
       <div class="input-to">
         <label for="">To:</label>
         <select data-js="currency-two" class="to"></select>
       </div>
     </div>
-
     <div class="valors">
       <div class="input-valor">
         <label for="">Exchange Amount:</label>
         <input data-js="currency-one-times" type="number" min="1" class="your-valor" value="1">
       </div>
-      
       <div class="p-valor">
         <label for="">Receive Amount:</label>
         <p data-js="converted-value" class="covertd-valor"></p>
       </div>
     </div>
-
     <p data-js="conversion-precision" class="conversion-info"></p>
-    
+    <img src="images/logo.svg" class="logo" alt="logo">
   </div>
   <script src="scripts/app.js"></script>
 </body>

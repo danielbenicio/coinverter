@@ -8,11 +8,7 @@
 }
 
 html{
-  --black:#0D0D47;
-  --dark-blue:#181882;
-  --blue:#2C2A7E;
-
-  
+  --blue:#5498FF;
   font-size:62.5%;
 }
 
@@ -23,17 +19,19 @@ body{
 }
 
 label{
-  color: #FFFFFF99;
+  color: #000000B2;
   font-size: 1.3rem;
   font-weight: 500;
 }
 
 select{
-  color:#FFFFFF99;
+  text-align: center;
+  color:#000;
   border-radius: .6rem;
-  background-color: var(--black);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  background-color: #fff;
   height: 4rem;
-  width: 22rem;
+  width: 13rem;
   margin-bottom: 4rem;
   font-size: 1.4rem;
 } 
@@ -41,10 +39,12 @@ select{
 input {
   -moz-appearance: textfield;
   text-align: center;
-  font-size: 1.4rem;
-  color:#FFFFFF99;
+  color:#000;
   border-radius: .6rem;
-  background-color: var(--black);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  background-color: #fff;
   height: 4rem;
-  width: 22rem;
+  width: 13rem;
+  margin-bottom: 4rem;
+  font-size: 1.4rem;
 }
