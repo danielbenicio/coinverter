@@ -39,6 +39,7 @@ select{
 } 
 
 input {
+  -moz-appearance: textfield;
   text-align: center;
   font-size: 1.4rem;
   color:#FFFFFF99;
