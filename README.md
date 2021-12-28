@@ -5,13 +5,13 @@
 </div>
 
 <h2>Do que se trata a aplicação?</h2>
-<p>Coinverter é um conversor de moedas feito com JavaScript Puro</p>
+<p>Coinverter é um conversor de moedas feito com JavaScript Puro.</p>
 
 <hr>
 
 <h3>Como a aplicação foi desenvolvida?</h3>
    
-<p> A aplicação foi desenvolvida inteiramente com HTML, CSS e Javascript</p> 
+<p> A aplicação foi desenvolvida inteiramente com HTML, CSS e Javascript.</p> 
 
 <hr>
 
