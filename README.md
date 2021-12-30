@@ -23,11 +23,4 @@ Sinta-se a vontade caso queira rodar este projeto direto no seu browser clicando
 
 <hr>
 
-### Sobre a experiência:
-
-+ A aplicação foi de grande aprendizado.
-
-+ Foi possível aprender sobre padrões front-end.
-
-
 
